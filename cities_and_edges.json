@@ -1,0 +1,26 @@
+{
+  "cities": [
+    { "id": 0, "name": "Delhi", "x": 0, "y": 0 },
+    { "id": 1, "name": "Mumbai", "x": 10, "y": 20 },
+    { "id": 2, "name": "Chennai", "x": 20, "y": 5 },
+    { "id": 3, "name": "Kolkata", "x": 15, "y": 15 },
+    { "id": 4, "name": "Bangalore", "x": 25, "y": 10 },
+    { "id": 5, "name": "Hyderabad", "x": 30, "y": 25 },
+    { "id": 6, "name": "Ahmedabad", "x": 5, "y": 10 },
+    { "id": 7, "name": "Pune", "x": 8, "y": 12 },
+    { "id": 8, "name": "Jaipur", "x": 12, "y": 8 },
+    { "id": 9, "name": "Lucknow", "x": 18, "y": 12 }
+  ],
+  "edges": [
+    { "u": 0, "v": 8, "base": 5, "traffic": { "morning": 3, "afternoon": 2, "evening": 4 } },
+    { "u": 0, "v": 6, "base": 10, "traffic": { "morning": 4, "afternoon": 3, "evening": 6 } },
+    { "u": 6, "v": 1, "base": 8, "traffic": { "morning": 3, "afternoon": 2, "evening": 5 } },
+    { "u": 1, "v": 7, "base": 3, "traffic": { "morning": 1, "afternoon": -1, "evening": 2 } },
+    { "u": 7, "v": 4, "base": 5, "traffic": { "morning": 0, "afternoon": -2, "evening": 3 } },
+    { "u": 4, "v": 2, "base": 6, "traffic": { "morning": 2, "afternoon": 1, "evening": 4 } },
+    { "u": 2, "v": 5, "base": 5, "traffic": { "morning": -2, "afternoon": 0, "evening": 2 } },
+    { "u": 5, "v": 3, "base": 7, "traffic": { "morning": 2, "afternoon": 1, "evening": 3 } },
+    { "u": 3, "v": 9, "base": 6, "traffic": { "morning": 1, "afternoon": -1, "evening": 2 } },
+    { "u": 9, "v": 0, "base": 12, "traffic": { "morning": 2, "afternoon": 0, "evening": 3 } }
+  ]
+}
